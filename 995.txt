@@ -12,6 +12,3 @@ At a later stage, a ward will be set up to provide emergency and reconstructive 
 Since the crisis began, Lebanon's population has grown by 30%.
  There is no solution in sight and aid to Lebanon is being cut, said Dr Arbid, a representative of the Ministry of Health.
  It is partnerships like these that will help Lebanon and those affected by the crisis make it through the hard times.
- 
---- output.yaml
-...

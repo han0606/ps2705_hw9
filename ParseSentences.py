@@ -16,8 +16,8 @@ class Sentence:
         return(len(self.sentence_string.split()))
 
     def __repr__(self):
-        return f"Sentence(Sentence = {self.sentence_string}, Document = {self.document}, Line Number = {self.line_number}, Character Count = {self.character_length}, Word Count = {self.word_length})"
-    
+        return 'Setence(sentence_string = %s, document = %s, line_number = %s, character_count = %s, word_count = %s)' % (self.sentence_string, self.document, self.line_number, self.character_length, self.word_celngth)
+
     def read(self):
         print(self.sentence_string)
 
@@ -29,7 +29,7 @@ class Sentence:
             f.write("{}: {}\n".format("count_words", text_obj.count_words()))   
 
 if __name__ == "__main__":
-    files = [sys.argv]
+    files = sys.argv[1:]
     for filePath in files:
         with open(filePath, "r") as f:
             count = 1
